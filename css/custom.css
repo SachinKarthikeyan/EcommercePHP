@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'AkiraExpanded';
+    src: url('../fonts/AkiraExpanded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Deuglar';
+    src: url('../fonts/DegularSemibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MadeOuterSans';
+    src: url('../fonts/MadeOuterSans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title{
+    font-family: "Deuglar";
+    font-size: 30px;
+    font-style: italic;
+}
+.custom-font-a{
+    font-family: "AkiraExpanded";
+}
+.custom-font-m{
+    font-family: "MadeOuterSans";
+}
+.custom-font-m1{
+    font-family: "MadeOuterSans";
+    font-size: 100px;
+    line-height: 100px;
+    width: 1000px;
+    text-align: left;
+}
+.custom-font-d1{
+    font-family: "Deuglar";
+}
+.custom-font-d2{
+    font-family: "Deuglar";
+    width: 700px;
+    font-size: 20px;
+    color: #1B1A1A;
+    font-style: italic;
+}
+.custom-font-d{
+    font-family: "Deuglar";
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 70px;
+}
+#dot{
+    color: red;
+}
+
+.custom-font-d4{
+    font-family: "Deuglar";
+    color: red;
+}
+.custom-font-d3{
+    font-family: "Deuglar";
+    color: #1B1A1A;
+}
+
+input[type="email"] {
+
+    font-family: "Deuglar";
+    color: #1B1A1A;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #000; 
+    width: 400px;
+    padding: 10px;
+}
+
+input[type="email"]:focus {
+    outline: none; 
+    border-bottom: 2px solid #000;
+}
+
+input[type="password"] {
+    font-family: "Deuglar";
+    color: #1B1A1A;
+    border: none;
+    border-bottom: 2px solid #000; 
+    width: 400px;
+    padding: 10px;
+}
+
+input[type="password"] :focus {
+    outline: none; 
+    border-bottom: 2px solid #000;
+}
+
+input[type="text"] {
+
+    font-family: "Deuglar";
+    color: #1B1A1A;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #000; 
+    width: 400px;
+    padding: 10px;
+}
+
+input[type="text"]:focus {
+    outline: none; 
+    border-bottom: 2px solid #000;
+}
+
+input[type="select"] {
+
+    font-family: "Deuglar";
+    color: #1B1A1A;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #000; 
+    width: 400px;
+    padding: 10px;
+}
+
+.user-type-select {
+    width: 400px; 
+    padding: 10px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #f8f8f8; 
+    font-size: 16px;
+    text-align: center; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+   
+}
+
+.user-type-select:focus {
+    outline: none; 
+    border-color: #007bff; 
+}
